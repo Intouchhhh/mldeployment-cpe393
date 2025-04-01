@@ -1,5 +1,16 @@
 # mldeployment-cpe393
 
+Create a python virtual environment and activate 
+```python
+python -m venv venv
+
+```
+
+```bash
+venv\Scripts\activate
+```
+
+
 # model export
 Run train.py. (model.pkl will be saved in app folder)
 

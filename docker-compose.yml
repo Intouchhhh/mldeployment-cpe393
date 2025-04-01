@@ -1,0 +1,12 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile  
+    volumes:
+      - ./app:/app 
+    ports:
+      - "9000:9000"  
+    environment:
+      - PYTHONUNBUFFERED=1  
+    command: ["python", "app.py"]
